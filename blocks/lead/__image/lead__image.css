@@ -1,0 +1,9 @@
+.lead__image {
+  outline: solid red 1px;
+  max-width: 984px;
+  width: 100%;
+  min-height: 200px;
+  max-height: 615px;
+  height: 100%;
+  margin-bottom: 8px;
+}

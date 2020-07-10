@@ -1,0 +1,23 @@
+.place__image {
+  outline: solid red 1px;
+  grid-area: image;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 900px) {
+  .place__image{
+    width: 340px;
+    height: 340px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    width: 100%;
+    margin: 0;
+  }
+}

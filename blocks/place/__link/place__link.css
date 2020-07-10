@@ -1,0 +1,23 @@
+.place__link{
+  outline: solid red 1px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  color: white;
+  margin-top: 12px;
+  font-family: Inter-Regular;
+}
+
+.place__link:hover {
+  opacity: 0.6;
+  transition:  0.4s ease;
+}
+
+@media screen and (max-width: 375px) {
+
+  .place__link {
+      display: none;
+  }
+
+}

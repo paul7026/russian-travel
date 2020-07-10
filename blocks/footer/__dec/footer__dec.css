@@ -1,0 +1,24 @@
+.footer__dec {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__dec:hover {
+  opacity: 0.6;
+  transition:  0.4s ease;
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__dec {
+    display: flex;
+    line-height: 1;
+    font-size: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__dec:last-child:last-child {
+    margin-bottom: 0;
+  }
+}
