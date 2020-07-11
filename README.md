@@ -4,6 +4,9 @@
 * Интро
 * Figma
 
+**Ссылка на проект**
+
+https://paul7026.github.io/russian-travel/
 
 **Интро**
 
