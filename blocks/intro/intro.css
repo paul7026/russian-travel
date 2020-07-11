@@ -3,7 +3,6 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-  outline: red solid 1px;
   font-family: Inter-Regular;
   max-width: 984px;
   width: 100%;

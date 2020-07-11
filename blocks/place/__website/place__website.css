@@ -1,5 +1,4 @@
 .place__website {
-  outline: red solid 1px;
   grid-area: web;
   display: flex;
   flex-direction: column;

@@ -1,5 +1,4 @@
 .place__image {
-  outline: solid red 1px;
   grid-area: image;
   width: 100%;
 }

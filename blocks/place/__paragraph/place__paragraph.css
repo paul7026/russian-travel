@@ -1,5 +1,4 @@
 .place__paragraph {
-  outline: solid red 1px;
   grid-area: paragraph;
   font-family: Inter-Regular;
 }
@@ -14,6 +13,8 @@
 @media screen and (max-width: 425px) {
   .place__paragraph {
     font-size: 1rem;
+    max-width: 288px;
+
   }
 }
 

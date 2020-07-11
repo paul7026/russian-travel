@@ -4,7 +4,6 @@
 @import url(./__dec/footer__dec.css);
 
 .footer {
-  outline: solid red 1px;
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
