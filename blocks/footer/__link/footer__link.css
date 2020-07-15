@@ -9,13 +9,16 @@
 }
 
 
-
 @media screen and (max-width: 425px) {
   .footer__link {
     display: flex;
     line-height: 1;
     font-size: 1.5rem;
     margin-right: 0;
+    margin-bottom: 32px;
   }
 
+  .footer__link:last-child:last-child {
+    margin-bottom: 0;
+  }
 }

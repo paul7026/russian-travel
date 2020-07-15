@@ -9,21 +9,21 @@
   min-width: 320px;
   max-height: 740px;
   min-height: 200px;
-  width: 92.5vw;
+  width: calc(100% - 96px);
   color: white;
   margin-bottom: 92px;
+  box-sizing: border-box;
 }
 
 
- @media screen and (min-width: 425px) and (max-width: 1024px) {
+ @media screen  and (max-width: 1024px) {
   .cover {
    width: 100vw;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
-   width: 100vw;
    margin-bottom: 88px;
   }
 }
@@ -31,7 +31,6 @@
 
 @media screen and (max-width: 425px) {
   .cover {
-    width: 100vw;
     margin-bottom: 64px;
   }
 }

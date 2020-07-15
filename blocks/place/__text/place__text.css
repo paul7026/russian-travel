@@ -1,26 +1,30 @@
 .place__text {
   font-size: 1.125rem;
-  line-height: 1.6;
+  line-height: 1.67;
   font-style: normal;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 24px;
+  box-sizing: border-box;
 }
 
 .place__text:last-child {
   margin-bottom: 0;
 }
 
+@media screen and (max-width : 1024px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
 @media screen and (max-width : 768px) {
   .place__text {
     font-size: 1rem;
+    line-height: 1.63;
+    max-width: 352px;
   }
 }
 
 
-@media screen and (max-width: 425px) {
-  .place__text {
-    font-size: 1rem;
-    margin-bottom: 24px;
-  }
-}
+

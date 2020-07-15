@@ -4,8 +4,8 @@
   font-size: 4.5rem;
   line-height: 1;
   text-align: center;
-  color: #FFFDFD;
-  z-index: 3;
+  color: white;
+  z-index: 10;
   margin-bottom: 32px;
   margin-top: 0;
 }

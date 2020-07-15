@@ -10,12 +10,10 @@
 
 <body>
   <div class="page">
-    <div class="surround">
       <header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="Россия">
-        </img>
         <div class="header__chose">
-          <a class=" header__lang-link header__lang-link_language_ru" href="#">Ru</a>
+          <a class=" header__lang-link header__lang-link_aktive" href="#">Ru</a>
           <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
@@ -67,7 +65,7 @@
             <h2 class="place__title">Куршская коса</h2>
             <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
             <div class="place__website">
-              <div class="place__url-heading">URL</div>
+              <h3 class="place__url-heading">URL</h3>
               <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <div class="place__paragraph">
@@ -179,7 +177,6 @@
         </section>
 
         <section class="cover">
-          <div class="cover__background"></div>
           <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе и&nbsp;iframes — путешествие от столицы
@@ -189,27 +186,19 @@
 
       </main>
       <footer class="footer">
-        <ul class="footer__links">
-          <a href="https://yandex.ru/maps" class="footer__dec">
-            <li class="footer__link" target="_blank">Карты</li>
-          </a>
-          <a href="https://yandex.ru/pogoda" class="footer__dec">
-            <li class="footer__link" target="_blank">Погода</li>
-          </a>
-          <a href="https://rasp.yandex.ru" class="footer__dec">
-            <li class="footer__link" target="_blank">Расписание</li>
-          </a>
-          <a href="https://calendar.yandex.ru" class="footer__dec">
-            <li class="footer__link" target="_blank">Календарь</li>
-          </a>
-          <a href="https://travel.yandex.ru" class="footer__dec">
-            <li class="footer__link" target="_blank">Путешествия</li>
-          </a>
+        <nav>
+          <ul class="footer__links">
+            <li class="footer__link" ><a class="footer__dec" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li class="footer__link"><a class="footer__dec" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li class="footer__link"><a class="footer__dec" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li class="footer__link"><a class="footer__dec" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li class="footer__link"><a class="footer__dec" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
         </ul>
-        <div>© 2020. Pavel Brudnyi</div>
+        </nav>
+
+        <p class="footer__copyright">© 2020. Pavel Brudnyi</p>
       </footer>
-
     </div>
-  </div>
-
 </body>
+
+</html>

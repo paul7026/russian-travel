@@ -5,4 +5,6 @@
   max-height: 615px;
   height: 100%;
   margin-bottom: 8px;
+  object-position: center;
+  object-fit: cover;
 }

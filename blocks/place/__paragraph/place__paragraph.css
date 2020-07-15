@@ -1,20 +1,25 @@
 .place__paragraph {
   grid-area: paragraph;
-  font-family: Inter-Regular;
+  box-sizing: border-box;
 }
 
-@media screen and (min-width: 425px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .place__paragraph {
     font-size: 1rem;
   }
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
-    font-size: 1rem;
+    max-width: 352px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .place__paragraph {
     max-width: 288px;
-
+    padding-left: 16px;
+    margin-bottom: 48px;
   }
 }
-
