@@ -5,13 +5,13 @@
   font-weight: bold;
   font-size: 0.75rem;
   line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 92px;
+  margin: 0 auto 92px 0;
 }
 
 @media screen and (min-width: 425px) and (max-width: 770px) {
   .intro__list {
     margin-bottom: 88px;
+    max-width: 720px;
   }
 }
 
@@ -19,5 +19,6 @@
 @media screen and (max-width: 425px) {
   .intro__list {
     margin-bottom: 64px;
+    max-width: 288px;
   }
 }

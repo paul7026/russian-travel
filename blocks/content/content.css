@@ -1,9 +1,10 @@
 .content {
-  color: white;
+  /* color: white;
   display: flex;
   margin: 0;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100%; */
+  box-sizing: border-box;
 }
 
