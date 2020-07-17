@@ -28,7 +28,6 @@
   .place__title {
     font-size: 2rem;
     max-width: 288px;
-    line-height: 1.1;
     padding: 0 16px;
   }
 }
